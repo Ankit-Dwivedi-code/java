@@ -10,7 +10,7 @@ class customer {
         System.out.println("Enter your total number of calls: ");
         int call = in.nextInt();
         
-        double bill = 0;
+        double bill = 0.0;
 
         // First 50 calls are free
         if (call <= 50) {

@@ -12,9 +12,9 @@ import java.util.Scanner;
         String productName = in.nextLine();
         System.out.println("Enter product price: ");
         double productPrice = in.nextDouble();
+        System.out.println("The product name is " + productName);
         if(productPrice > 1000 && productPrice  < 10000)
         {
-            System.out.println("The product name is " + productName);
             discount += productPrice*(5.0/100);
             if(productPrice == 5000)
             {
@@ -24,7 +24,6 @@ import java.util.Scanner;
         }
         else if(productPrice >= 10000)
         {
-            System.out.println("The product name is " + productName);
             discount += productPrice*(7.0/100);
             if(productPrice == 25000 || productPrice == 35000 || productPrice == 50000)
             {
