@@ -32,5 +32,6 @@ class call {
         System.out.println("Customer name" + name);
         System.out.println("Total number of call: " + call);
         System.out.println("Total bill: " + bill);
+        in.close();
     }
 }
