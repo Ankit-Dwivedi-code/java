@@ -8,7 +8,7 @@ class sum {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         float num[] = new float[10];
-        System.err.println("Enter 10 decimal numbers: ");
+        System.err.println("Enter any 10 real numbers: ");
         for (int i = 0; i < 10; i++) {
             num[i] = in.nextFloat();
         }
